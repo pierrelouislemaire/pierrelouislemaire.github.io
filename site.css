@@ -5,8 +5,8 @@
 }
 
 img[src*="me"] {
-    border-radius: 5em;
-    width: 10em;
+    border-radius: 2em;
+    width: 20em;
     float: left;
     margin-right: 20px;
 }
