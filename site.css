@@ -11,6 +11,10 @@ img[src*="me"] {
     margin-right: 20px;
 }
 
+img[src*="ic"] {
+  width: 2em;
+}
+
 a {
   color: #000000; /* Set the default link color */
   text-decoration-line: none !important;
