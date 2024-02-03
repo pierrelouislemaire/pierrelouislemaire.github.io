@@ -20,7 +20,6 @@ a {
 
 a:hover {
   color: #81c6ff; /* Set the link color when hovered */
-  font-weight: normal;
 }
 
 blockquote {
