@@ -25,3 +25,7 @@ a:hover {
 blockquote {
   border-left: 5px solid #81c6ff !important;
 }
+
+body {
+  margin: 25%;
+}
