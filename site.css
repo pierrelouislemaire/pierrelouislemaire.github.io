@@ -1,0 +1,24 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img[src*="me"] {
+    border-radius: 25px;
+    width: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+  color: #000000; /* Set the default link color */
+  text-decoration-line: none !important;
+  transition: color 0.1s ease; /* Add a smooth transition effect for the color change */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #81c6ff; /* Set the link color when hovered */
+  font-weight: normal;
+}
