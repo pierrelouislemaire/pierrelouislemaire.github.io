@@ -11,7 +11,7 @@ img[src*="me"] {
     margin-right: 20px;
 }
 
-svg {
+img[src*="ic"] {
   width: 2em;
   color: #000000;
 }
@@ -32,6 +32,6 @@ blockquote {
 }
 
 body {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
