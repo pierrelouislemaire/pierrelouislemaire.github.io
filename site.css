@@ -11,8 +11,9 @@ img[src*="me"] {
     margin-right: 20px;
 }
 
-img[src*="ic"] {
+svg {
   width: 2em;
+  color: #000000;
 }
 
 a {
