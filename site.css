@@ -6,14 +6,11 @@
 
 img[src*="me"] {
     border-radius: 2em;
-    width: 20em;
+    width: 17em;
     float: left;
     margin-right: 20px;
-}
-
-img[src*="ic"] {
-  width: 2em;
-  color: #000000;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -32,6 +29,25 @@ blockquote {
 }
 
 body {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+div.scroll {
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+span.email {
+  color: #81c6ff;
+}
+
+a.news {
+  text-decoration-line: underline !important;
+  font-weight: normal;
 }
