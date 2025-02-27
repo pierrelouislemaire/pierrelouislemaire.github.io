@@ -1,33 +1,59 @@
-<p>⬇️ CV (last update in February 2025), research statement, email, Github and social media profiles ⬇️ </p>
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-<div class="icon-row">
-  <a href="files/CV.pdf" target="_blank">
-    <i class="fa-solid fa-file fa-2x"></i>
-    <span>CV</span>
-  </a>
-  
-  <a href="files/researchstatement.pdf" target="_blank">
-    <i class="fa-solid fa-book-open fa-2x"></i>
-    <span>Research</span>
-  </a>
-  
-  <a href="mailto:pierre-louis.lemaire@polymtl.ca" target="_blank">
-    <i class="fa-regular fa-paper-plane fa-2x"></i>
-    <span>Email</span>
-  </a>
-  
-  <a href="https://www.linkedin.com/in/pierre-louis-lemaire" target="_blank">
-    <i class="fa-brands fa-linkedin-in fa-2x"></i>
-    <span>LinkedIn</span>
-  </a>
-  
-  <a href="https://bsky.app/profile/pierrelouislemaire.bsky.social" target="_blank">
-    <i class="fa-brands fa-bluesky fa-2x"></i>
-    <span>Bluesky</span>
-  </a>
-  
-  <a href="https://www.github.com/pierrelouislemaire" target="_blank">
-    <i class="fa-brands fa-github fa-2x"></i>
-    <span>GitHub</span>
-  </a>
-</div>
+img[src*="me"] {
+    border-radius: 2em;
+    width: 20em;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #000000; /* Set the default link color */
+  text-decoration-line: none !important;
+  transition: color 0.1s ease; /* Add a smooth transition effect for the color change */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #81c6ff; /* Set the link color when hovered */
+}
+
+blockquote {
+  border-left: 5px solid #81c6ff !important;
+}
+
+body {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+div.scroll {
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+span.email {
+  color: #81c6ff;
+}
+
+a.news {
+  text-decoration-line: underline !important;
+  font-weight: normal;
+}
+
+.icon-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
