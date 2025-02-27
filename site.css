@@ -15,7 +15,7 @@ img[src*="me"] {
 
 a {
   color: #000000; /* Set the default link color */
-  text-decoration-line: none !important;
+  text-decoration-line: none ;
   transition: color 0.1s ease; /* Add a smooth transition effect for the color change */
   font-weight: bold;
 }
@@ -25,7 +25,7 @@ a:hover {
 }
 
 blockquote {
-  border-left: 5px solid #81c6ff !important;
+  border-left: 5px solid #81c6ff ;
 }
 
 body {
@@ -48,6 +48,6 @@ span.email {
 }
 
 a.news {
-  text-decoration-line: underline !important;
+  text-decoration-line: underline ;
   font-weight: normal;
 }
