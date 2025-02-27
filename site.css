@@ -51,9 +51,3 @@ a.news {
   text-decoration-line: underline !important;
   font-weight: normal;
 }
-
-.icon-bar {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
