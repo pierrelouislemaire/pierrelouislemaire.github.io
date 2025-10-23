@@ -39,6 +39,11 @@ div.scroll {
   overflow-y: auto;
 }
 
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 p {
   margin-bottom: 20px;
   text-align: justify;
