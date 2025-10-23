@@ -41,6 +41,7 @@ div.scroll {
 
 p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 span.email {
