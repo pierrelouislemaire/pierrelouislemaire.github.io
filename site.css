@@ -6,7 +6,7 @@
 
 img[src*="me"] {
     border-radius: 2em;
-    width: 17em;
+    width: 20em;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -42,11 +42,6 @@ div.scroll {
 div {
   text-align: justify;
   text-justify: inter-word;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 p {
