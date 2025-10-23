@@ -44,6 +44,11 @@ div {
   text-justify: inter-word;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 p {
   margin-bottom: 20px;
   text-align: justify;
